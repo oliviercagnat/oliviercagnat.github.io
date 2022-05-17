@@ -1248,6 +1248,10 @@ img{
  padding: 2rem 0 3rem;
 }
 
+.footer__titles{
+   text-align: center;
+}
+
 .footer__title{
  font-size: var(--h1-font-size);
  margin-bottom: var(--mb-0-25);
