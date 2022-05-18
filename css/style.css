@@ -1386,6 +1386,10 @@ img{
      gap: 0.5rem;
    }
 
+   .qualification__start{
+     margin-top: var(--mb-2);
+   }
+
    .contact_mail{
      margin-left: var(--mb-1-5);
    }
