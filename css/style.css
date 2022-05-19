@@ -5,7 +5,7 @@
 
    /* ============ COLORS ================ */
        /* DECIDE YOUR BROWSER THEME */
-   --hue-color: 250;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
+   --hue-color: 230;  /* GREEN: 144,  Blue: 230, Purple: 250, Pink: 340 */
 
    
        /* HSL Color Mode */
@@ -132,7 +132,7 @@ body.dark-theme{
 
 /* ======= CHANGE COLOR ==================== */
 :root.purple{
-    --hue-color: 260; 
+    --hue-color: 250; 
 }
 :root.blue{
     --hue-color: 210; 
@@ -243,6 +243,7 @@ img{
 
 .button--select{
     padding: 1.05rem;
+    background-color: var(--first-color-lighter);
  }
 
 .button--white{

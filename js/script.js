@@ -73,7 +73,7 @@ console.log("REMOVE MENU PROFILE IS WORKING");
 // var animatedtext = document.getElementById('Typewriter');
 
 new Typewriter('#Typewriter', {
-  strings: ['Olivier Cagnat', 'Junior Web-developer', 'in Tokyo', 'looking for a position'],
+  strings: ['Olivier Cagnat', 'Junior Web-developer', 'open to work', 'in Tokyo'],
   autoStart: true,
   loop: true,
   cursor: "|",
