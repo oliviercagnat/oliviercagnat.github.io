@@ -1479,6 +1479,8 @@ img{
    .nav{
      height: calc(var(--header-height) + 1.5rem);
      column-gap: 1rem;
+     justify-content: center;
+
    }
 
    .nav__icon,
@@ -1490,6 +1492,7 @@ img{
    .nav__list{
      display: flex;
      column-gap: 2rem;
+     margin-bottom: 0rem;
    }
 
    .nav__menu{
@@ -1497,7 +1500,7 @@ img{
    }
 
    .nav__btns{
-    margin-top: -15px;
+    /* margin-top: -15px; */
    }
 
    .change-theme{
@@ -1545,6 +1548,10 @@ img{
      margin: 0 var(--mb-1);
    }
 
+   .blog-slider__text{
+     width: 90%;
+   }
+
    .footer__container{
      grid-template-columns: repeat(3, 1fr);
    }
@@ -1561,6 +1568,7 @@ img{
 
    .footer__socials{
      justify-content: flex-end;
+     align-items: center;
    }
 
    .footer__copy{
