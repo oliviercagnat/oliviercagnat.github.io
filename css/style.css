@@ -541,17 +541,22 @@ img{
 }
 .about__img{
    width: 200px;
+   border: 1px solid #FFF;
    border-radius: .5rem;
    margin-bottom: var(--mb-2);
    display: inline-flex;
    justify-self: center;
 }
 
+.about__data{
+  margin-top: 2rem;
+}
+
 .about__description{
    text-align: center;
    margin-bottom: var(--mb-2-5);
    color: var(--text-color);
-   text-justify: auto;
+   /* text-justify: auto; */
 }
 
 .about__info{
@@ -605,6 +610,7 @@ img{
    position: relative;
    width: 150px;
    height: 200px;
+   border: 1px solid #FFF;
    border-radius: 15px;
    overflow: hidden;
    margin: auto;
@@ -829,8 +835,9 @@ img{
    transform: translate(15px, 10px);
 }
 .qualification__start-icon {
-   font-size: var(--h3-font-size);
-   color: var(--mainText);
+  /* margin-top: var(--mb-0-5); */
+  font-size: var(--h3-font-size);
+  color: var(--mainText);
 }
 
 /* ===================== PORTFOLIO ================== */
@@ -1407,7 +1414,7 @@ img{
  }
 
  /* Medium size Screen devices */
- @media screen and (min-width: 568px){
+ @media screen and (min-width: 351px){
      .home__content{
        grid-template-columns: max-content 1fr;
      }
@@ -1440,7 +1447,14 @@ img{
      .contact{
        padding-top: 0;
      }
+
+    .qualification__start{
+      margin-top: 0;
+      margin-bottom: var(--mb-3);
+    }
+
      .qualification__start-icon{
+      margin-top: var(--mb-2);
        position: absolute;
        transform: translateY(60%);    
      }
@@ -1534,6 +1548,7 @@ img{
 
    .about__img{
      width: 350px;
+     border: 1px solid #FFF;
    }
 
    .about__description{
@@ -1547,7 +1562,9 @@ img{
    .about__buttons{
      justify-content: center;
    }
-
+   .qualification__start-icon{
+    margin-top: 0;  
+   }
    .qualification__button{
      margin: 0 var(--mb-1);
    }
