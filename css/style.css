@@ -245,6 +245,7 @@ img{
 .button--select{
     padding: 1.05rem;
     background-color: var(--first-color-lighter);
+    cursor: pointer;
  }
 
 .button--white{
